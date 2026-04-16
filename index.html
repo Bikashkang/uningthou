@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uningthou Woodworks | Artisan Craftsmanship from Imphal</title>
+    <meta name="description"
+        content="Premium handcrafted woodworks, cheese boards, serving trays, and bespoke furniture from the heart of Imphal, Manipur. Shop Uningthou's signature collection.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+
+    <!-- ── MOBILE NAV OVERLAY ──────────────────────────────── -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#home" onclick="closeMobileNav()">Home</a>
+        <a href="#shop" onclick="closeMobileNav()">Shop</a>
+        <a href="#about" onclick="closeMobileNav()">About</a>
+        <a href="#contact" onclick="closeMobileNav()">Contact</a>
+    </div>
+
+    <!-- ── HEADER ─────────────────────────────────────────── -->
+    <header id="site-header">
+        <div class="logo-wrap">
+            <a href="#home" class="logo">Uningthou</a>
+            <span class="logo-tagline">Woodworks · Imphal</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+            </ul>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" onclick="toggleMobileNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <!-- ── HERO ───────────────────────────────────────────── -->
+    <section class="hero" id="home">
+        <div class="hero-badge">✦ Handcrafted in Imphal, Manipur</div>
+        <h1>Where <em>Wood</em> Tells<br>Its Own Story</h1>
+        <p>Artisan-crafted cheese boards, serving trays, and bespoke furniture —
+            each piece shaped by hand, finished with intention.</p>
+        <div class="hero-buttons">
+            <a href="#shop" class="btn btn-primary">Explore Collection</a>
+            <a href="#about" class="btn btn-outline">Our Craft</a>
+        </div>
+        <div class="hero-scroll">
+            <div class="hero-scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- ── STATS STRIP ────────────────────────────────────── -->
+    <div class="stats-strip">
+        <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Natural Wood</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">Zero</span>
+            <span class="stat-label">Waste Policy</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">Bespoke</span>
+            <span class="stat-label">Custom Orders</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">Local</span>
+            <span class="stat-label">Imphal Workshop</span>
+        </div>
+    </div>
+
+    <!-- ── SHOP / PRODUCTS ────────────────────────────────── -->
+    <section class="products" id="shop">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Signature Collection</span>
+            <h2 class="section-title">Crafted to Last a Lifetime</h2>
+            <p class="section-sub">Every piece is unique — shaped from locally sourced timber
+                and finished to reveal the natural beauty of the grain.</p>
+        </div>
+
+        <div class="grid">
+
+            <div class="card reveal reveal-delay-1">
+                <div class="card-img-wrap">
+                    <img src="assets/images/rustic-boards.jpg" alt="Rustic Cheese Boards by Uningthou Woodworks">
+                    <span class="card-badge">Bestseller</span>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Rustic Cheese Boards</h3>
+                    <p class="card-desc">Thick-cut, naturally finished boards perfect for entertaining.
+                        Each one is as unique as the tree it came from.</p>
+                    <div class="card-footer">
+                        <span class="card-price">Starting at ₹250</span>
+                        <a href="#contact" class="card-link">Enquire →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal reveal-delay-2">
+                <div class="card-img-wrap">
+                    <img src="assets/images/multi-wood-tray.jpg" alt="Multi-wood Serving Tray">
+                    <span class="card-badge">New</span>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Multi-wood Serving Tray</h3>
+                    <p class="card-desc">A stunning mosaic of Gmelina, Bonsum, Champak & Red Cedar —
+                        no two trays are alike.</p>
+                    <div class="card-footer">
+                        <span class="card-price">Custom Pricing</span>
+                        <a href="#contact" class="card-link">Enquire →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal reveal-delay-3">
+                <div class="card-img-wrap">
+                    <img src="assets/images/teak-console.jpg" alt="Custom Teak Console Table">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Custom Teak Console</h3>
+                    <p class="card-desc">Bespoke teak furniture designed to fit your space.
+                        Clean lines, heirloom quality.</p>
+                    <div class="card-footer">
+                        <span class="card-price">Bespoke Order</span>
+                        <a href="#contact" class="card-link">Enquire →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal reveal-delay-1">
+                <div class="card-img-wrap">
+                    <img src="assets/images/plant-stands.jpg" alt="Wooden Plant Stands">
+                    <span class="card-badge">Popular</span>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Wooden Plant Stands</h3>
+                    <p class="card-desc">Elevate your greenery with handcrafted stands that
+                        complement any interior style.</p>
+                    <div class="card-footer">
+                        <span class="card-price">Custom Sizing</span>
+                        <a href="#contact" class="card-link">Enquire →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal reveal-delay-2">
+                <div class="card-img-wrap">
+                    <img src="assets/images/festive-tray.jpg" alt="Festive Centerpiece Tray">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Festive Centerpiece Tray</h3>
+                    <p class="card-desc">Celebration-ready trays with a warm, rich finish.
+                        A gift they'll keep for years.</p>
+                    <div class="card-footer">
+                        <span class="card-price">Gift Ready</span>
+                        <a href="#contact" class="card-link">Enquire →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card reveal reveal-delay-3">
+                <div class="card-img-wrap">
+                    <img src="assets/images/hero-cheese-boards.jpg" alt="Signature Cheese Board Pair">
+                    <span class="card-badge">Handcrafted</span>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Signature Board Pair</h3>
+                    <p class="card-desc">Two complementary boards — perfect for sharing.
+                        A timeless pairing for every kitchen.</p>
+                    <div class="card-footer">
+                        <span class="card-price">Pair Set</span>
+                        <a href="#contact" class="card-link">Enquire →</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── SUSTAINABILITY ─────────────────────────────────── -->
+    <section class="sustainability">
+        <div class="sustain-text reveal">
+            <span class="section-eyebrow">♻ Our Promise</span>
+            <h2>Beauty Without<br>Compromise</h2>
+            <p>At Uningthou, sustainability isn't just a word — it's the foundation of every cut,
+                joint, and finish. Our workshop runs on a Zero Waste philosophy, turning every
+                offcut into something meaningful.</p>
+            <div class="sustain-pillars">
+                <div class="pillar">
+                    <div class="pillar-icon">🌿</div>
+                    <span>Locally sourced timber from Manipur</span>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-icon">♻️</div>
+                    <span>Zero Waste policy — every offcut is repurposed</span>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-icon">🤲</div>
+                    <span>Hand-finished, no mass production</span>
+                </div>
+                <div class="pillar">
+                    <div class="pillar-icon">🪵</div>
+                    <span>Food-safe, non-toxic finishes</span>
+                </div>
+            </div>
+        </div>
+        <div class="sustain-image reveal">
+            <img src="assets/images/workshop.jpg" alt="Uningthou workshop sustainable woodworking">
+        </div>
+    </section>
+
+    <!-- ── ABOUT ──────────────────────────────────────────── -->
+    <section class="about" id="about">
+        <div class="about-image-wrap reveal">
+            <div class="about-image">
+                <img src="assets/images/craftsmanship.jpg" alt="Uningthou Woodworks craftsmanship">
+            </div>
+            <!-- <div class="about-image-accent">
+                <img src="assets/images/wood-detail.jpg"
+                     alt="Wood grain detail close-up">
+            </div> -->
+        </div>
+        <div class="about-text reveal">
+            <span class="section-eyebrow">Our Story</span>
+            <h2>Custom Craftsmanship,<br>Rooted in Imphal</h2>
+            <p>From signature cheese boards to bespoke furniture, everything at Uningthou begins
+                with a single belief: wood has a story worth telling. We listen to the grain,
+                respect the material, and shape it into pieces that outlast trends.</p>
+            <p>Our Imphal workshop is a place where skill meets patience. Whether you're after
+                a single serving board or a custom console table, every order is personal —
+                and every finish is exact.</p>
+            <div class="about-features">
+                <div class="feature-item">
+                    <div class="feature-icon">🎨</div>
+                    <div class="feature-text">
+                        <strong>Custom Orders</strong>
+                        <span>Size, wood, finish — your choice</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🪚</div>
+                    <div class="feature-text">
+                        <strong>Hand Finished</strong>
+                        <span>By skilled Manipuri artisans</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📦</div>
+                    <div class="feature-text">
+                        <strong>Gift Ready</strong>
+                        <span>Beautiful packaging included</span>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">💬</div>
+                    <div class="feature-text">
+                        <strong>DM to Order</strong>
+                        <span>Quick response on Instagram</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── TESTIMONIALS ───────────────────────────────────── -->
+    <section class="testimonials">
+        <div class="section-header reveal">
+            <span class="section-eyebrow">Customer Love</span>
+            <h2 class="section-title">What People Are Saying</h2>
+        </div>
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card reveal reveal-delay-1">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"The cheese board is absolutely beautiful. You can feel
+                    the quality the moment you hold it — smooth, heavy, and perfectly finished.
+                    It's a staple on our dining table now."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">P</div>
+                    <div>
+                        <div class="author-name">Priya S.</div>
+                        <div class="author-location">Imphal</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal reveal-delay-2">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"I ordered a custom plant stand and it exceeded every
+                    expectation. The wood grain is stunning and it fits the corner perfectly.
+                    Will definitely be ordering again!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">R</div>
+                    <div>
+                        <div class="author-name">Ravi M.</div>
+                        <div class="author-location">Delhi</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card reveal reveal-delay-3">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Gifted the festive tray set to my family during Diwali —
+                    they were blown away. Beautifully packaged and looks even better in person.
+                    A true artisan product."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">A</div>
+                    <div>
+                        <div class="author-name">Ananya K.</div>
+                        <div class="author-location">Bangalore</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── CTA ────────────────────────────────────────────── -->
+    <section class="cta-section">
+        <div class="cta-inner reveal">
+            <span class="section-eyebrow">Get in Touch</span>
+            <h2>Have Something in Mind?</h2>
+            <p>Custom orders, bulk enquiries, or just want to say hello — we're always happy
+                to talk wood. Find us on Instagram and send us a DM.</p>
+            <div class="cta-buttons">
+
+                <a href="https://instagram.com/uningthou_" target="_blank" rel="noopener" class="btn btn-primary">
+                    ✦ Follow on Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ─────────────────────────────────────────── -->
+    <footer id="contact">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="#home" class="logo">Uningthou</a>
+                <span class="logo-tagline">Woodworks · Imphal</span>
+                <p>Premium artisan woodworks from the heart of Manipur. Every piece
+                    handcrafted with care, delivered with pride.</p>
+                <div class="footer-social">
+                    <a href="https://instagram.com/uningthou_" target="_blank" rel="noopener" class="social-btn">
+                        📸 @uningthou_
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop Collection</a></li>
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get in Touch</h4>
+                <address>
+                    Imphal, Manipur<br>
+                    India<br><br>
+                    Instagram: <a href="https://instagram.com/uningthou_" target="_blank">@uningthou_</a>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Uningthou Woodworks. All rights reserved.</span>
+            <span>Handcrafted with ♥ in Manipur</span>
+        </div>
+    </footer>
+
+    <!-- ── SCRIPTS ────────────────────────────────────────── -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
